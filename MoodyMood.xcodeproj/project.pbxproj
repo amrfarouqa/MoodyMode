@@ -7,21 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26BB3EF1E7DB8962376D1911 /* Pods_MoodyMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B7583A31C2148020664BCA /* Pods_MoodyMood.framework */; };
+		C507CF951E1FE1A600F3F914 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C507CF941E1FE1A600F3F914 /* HomeViewController.swift */; };
+		C51ADD0E1E252033005B5842 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C51ADD0D1E252033005B5842 /* GoogleService-Info.plist */; };
+		C5622D281E2237490076B740 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D1E1E2237490076B740 /* ChatInputContainerView.swift */; };
+		C5622D291E2237490076B740 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D1F1E2237490076B740 /* ChatLogController.swift */; };
+		C5622D2A1E2237490076B740 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D201E2237490076B740 /* ChatMessageCell.swift */; };
+		C5622D2B1E2237490076B740 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D211E2237490076B740 /* Extensions.swift */; };
+		C5622D2D1E2237490076B740 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D231E2237490076B740 /* Message.swift */; };
+		C5622D2E1E2237490076B740 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D241E2237490076B740 /* MessagesController.swift */; };
+		C5622D2F1E2237490076B740 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D251E2237490076B740 /* NewMessageController.swift */; };
+		C5622D301E2237490076B740 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D261E2237490076B740 /* User.swift */; };
+		C5622D311E2237490076B740 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D271E2237490076B740 /* UserCell.swift */; };
+		C5622D341E2239130076B740 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5622D321E2239130076B740 /* LoginController.swift */; };
+		C567F9C41E20E5FF0058E7FD /* FriendsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567F9C31E20E5FF0058E7FD /* FriendsCVC.swift */; };
+		C58AC5E51E2550B4000F1831 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58AC5E41E2550B4000F1831 /* GoogleToolboxForMac.framework */; };
+		C58AC5E61E2550BE000F1831 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51ADD091E24EFC7005B5842 /* Bolts.framework */; };
+		C58AC5E71E2550BE000F1831 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51ADD031E24EF51005B5842 /* FBSDKCoreKit.framework */; };
+		C58AC5E81E2550BE000F1831 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51ADD041E24EF51005B5842 /* FBSDKLoginKit.framework */; };
+		C58AC5E91E2550BE000F1831 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51ADD051E24EF51005B5842 /* FBSDKShareKit.framework */; };
+		C5DEC0101E2657CD001AE294 /* HistoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEC00F1E2657CD001AE294 /* HistoryCVC.swift */; };
+		C5DEC0121E267A6F001AE294 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEC0111E267A6F001AE294 /* SettingsVC.swift */; };
 		C5F52CD81E1FCF3900E0F151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F52CD71E1FCF3900E0F151 /* AppDelegate.swift */; };
-		C5F52CDA1E1FCF3900E0F151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F52CD91E1FCF3900E0F151 /* ViewController.swift */; };
+		C5F52CDA1E1FCF3900E0F151 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F52CD91E1FCF3900E0F151 /* LoginVC.swift */; };
 		C5F52CDD1E1FCF3900E0F151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F52CDB1E1FCF3900E0F151 /* Main.storyboard */; };
 		C5F52CDF1E1FCF3900E0F151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F52CDE1E1FCF3900E0F151 /* Assets.xcassets */; };
 		C5F52CE21E1FCF3900E0F151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F52CE01E1FCF3900E0F151 /* LaunchScreen.storyboard */; };
+		C5F52CED1E1FD35300E0F151 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F52CEC1E1FD35300E0F151 /* HomeVC.swift */; };
+		C5FCF6DB1E27B6160083DAFC /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FCF6DA1E27B6160083DAFC /* AboutVC.swift */; };
+		C5FCF6FB1E28AFF40083DAFC /* InviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FCF6FA1E28AFF40083DAFC /* InviteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03B7583A31C2148020664BCA /* Pods_MoodyMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodyMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A5C290A0BE262F73FF62C9 /* Pods-MoodyMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodyMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodyMood/Pods-MoodyMood.release.xcconfig"; sourceTree = "<group>"; };
+		C507CF941E1FE1A600F3F914 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C51ADD031E24EF51005B5842 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = MoodyMood/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C51ADD041E24EF51005B5842 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = MoodyMood/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C51ADD051E24EF51005B5842 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = MoodyMood/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		C51ADD091E24EFC7005B5842 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = MoodyMood/Bolts.framework; sourceTree = "<group>"; };
+		C51ADD0D1E252033005B5842 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5622D1E1E2237490076B740 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		C5622D1F1E2237490076B740 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		C5622D201E2237490076B740 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		C5622D211E2237490076B740 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C5622D231E2237490076B740 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C5622D241E2237490076B740 /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		C5622D251E2237490076B740 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		C5622D261E2237490076B740 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5622D271E2237490076B740 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C5622D321E2239130076B740 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C567F9C31E20E5FF0058E7FD /* FriendsCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCVC.swift; sourceTree = "<group>"; };
+		C58AC5E41E2550B4000F1831 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MoodyMood-gtvmmivzulbvhebvnbxcelmhgqjf/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		C5CB50331E24C0480009F77F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C5CB50351E24C0530009F77F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C5CB50371E24C4030009F77F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MoodyMood-gtvmmivzulbvhebvnbxcelmhgqjf/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		C5CB50381E24C4030009F77F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MoodyMood-gtvmmivzulbvhebvnbxcelmhgqjf/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		C5CB50391E24C4030009F77F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MoodyMood-gtvmmivzulbvhebvnbxcelmhgqjf/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		C5CB503A1E24C4030009F77F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MoodyMood-gtvmmivzulbvhebvnbxcelmhgqjf/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		C5DEC00F1E2657CD001AE294 /* HistoryCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCVC.swift; sourceTree = "<group>"; };
+		C5DEC0111E267A6F001AE294 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		C5F52CD41E1FCF3900E0F151 /* MoodyMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodyMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F52CD71E1FCF3900E0F151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5F52CD91E1FCF3900E0F151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5F52CD91E1FCF3900E0F151 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C5F52CDC1E1FCF3900E0F151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5F52CDE1E1FCF3900E0F151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5F52CE11E1FCF3900E0F151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5F52CE31E1FCF3900E0F151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F52CE91E1FCF4300E0F151 /* MoodyMood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodyMood.entitlements; sourceTree = "<group>"; };
+		C5F52CEC1E1FD35300E0F151 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C5FCF6DA1E27B6160083DAFC /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		C5FCF6FA1E28AFF40083DAFC /* InviteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteVC.swift; sourceTree = "<group>"; };
+		EEF64D8E8E594E14F0C8289E /* Pods-MoodyMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodyMood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodyMood/Pods-MoodyMood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +86,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58AC5E61E2550BE000F1831 /* Bolts.framework in Frameworks */,
+				C58AC5E71E2550BE000F1831 /* FBSDKCoreKit.framework in Frameworks */,
+				C58AC5E81E2550BE000F1831 /* FBSDKLoginKit.framework in Frameworks */,
+				C58AC5E91E2550BE000F1831 /* FBSDKShareKit.framework in Frameworks */,
+				C58AC5E51E2550B4000F1831 /* GoogleToolboxForMac.framework in Frameworks */,
+				26BB3EF1E7DB8962376D1911 /* Pods_MoodyMood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7245981905C45FFCCEBFFD39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C58AC5E41E2550B4000F1831 /* GoogleToolboxForMac.framework */,
+				C51ADD091E24EFC7005B5842 /* Bolts.framework */,
+				C51ADD031E24EF51005B5842 /* FBSDKCoreKit.framework */,
+				C51ADD041E24EF51005B5842 /* FBSDKLoginKit.framework */,
+				C51ADD051E24EF51005B5842 /* FBSDKShareKit.framework */,
+				C5CB50371E24C4030009F77F /* Bolts.framework */,
+				C5CB50381E24C4030009F77F /* FBSDKCoreKit.framework */,
+				C5CB50391E24C4030009F77F /* FBSDKLoginKit.framework */,
+				C5CB503A1E24C4030009F77F /* FBSDKShareKit.framework */,
+				C5CB50351E24C0530009F77F /* libsqlite3.tbd */,
+				C5CB50331E24C0480009F77F /* libc++.tbd */,
+				03B7583A31C2148020664BCA /* Pods_MoodyMood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C52E974C1E221D8D00703629 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C5622D1E1E2237490076B740 /* ChatInputContainerView.swift */,
+				C5622D1F1E2237490076B740 /* ChatLogController.swift */,
+				C5622D321E2239130076B740 /* LoginController.swift */,
+				C5622D201E2237490076B740 /* ChatMessageCell.swift */,
+				C5622D211E2237490076B740 /* Extensions.swift */,
+				C5622D231E2237490076B740 /* Message.swift */,
+				C5622D241E2237490076B740 /* MessagesController.swift */,
+				C5622D251E2237490076B740 /* NewMessageController.swift */,
+				C5622D261E2237490076B740 /* User.swift */,
+				C5622D271E2237490076B740 /* UserCell.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 		C5F52CCB1E1FCF3900E0F151 = {
 			isa = PBXGroup;
 			children = (
 				C5F52CD61E1FCF3900E0F151 /* MoodyMood */,
 				C5F52CD51E1FCF3900E0F151 /* Products */,
+				EBD580FA94A2CFEBFC03AEE2 /* Pods */,
+				7245981905C45FFCCEBFFD39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +155,33 @@
 		C5F52CD61E1FCF3900E0F151 /* MoodyMood */ = {
 			isa = PBXGroup;
 			children = (
+				C52E974C1E221D8D00703629 /* Chat */,
+				C5F52CE91E1FCF4300E0F151 /* MoodyMood.entitlements */,
 				C5F52CD71E1FCF3900E0F151 /* AppDelegate.swift */,
-				C5F52CD91E1FCF3900E0F151 /* ViewController.swift */,
+				C5F52CD91E1FCF3900E0F151 /* LoginVC.swift */,
 				C5F52CDB1E1FCF3900E0F151 /* Main.storyboard */,
 				C5F52CDE1E1FCF3900E0F151 /* Assets.xcassets */,
 				C5F52CE01E1FCF3900E0F151 /* LaunchScreen.storyboard */,
 				C5F52CE31E1FCF3900E0F151 /* Info.plist */,
+				C5F52CEC1E1FD35300E0F151 /* HomeVC.swift */,
+				C507CF941E1FE1A600F3F914 /* HomeViewController.swift */,
+				C567F9C31E20E5FF0058E7FD /* FriendsCVC.swift */,
+				C51ADD0D1E252033005B5842 /* GoogleService-Info.plist */,
+				C5DEC00F1E2657CD001AE294 /* HistoryCVC.swift */,
+				C5DEC0111E267A6F001AE294 /* SettingsVC.swift */,
+				C5FCF6DA1E27B6160083DAFC /* AboutVC.swift */,
+				C5FCF6FA1E28AFF40083DAFC /* InviteVC.swift */,
 			);
 			path = MoodyMood;
+			sourceTree = "<group>";
+		};
+		EBD580FA94A2CFEBFC03AEE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEF64D8E8E594E14F0C8289E /* Pods-MoodyMood.debug.xcconfig */,
+				60A5C290A0BE262F73FF62C9 /* Pods-MoodyMood.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F52CE61E1FCF3900E0F151 /* Build configuration list for PBXNativeTarget "MoodyMood" */;
 			buildPhases = (
+				3410657964DF96313172635B /* [CP] Check Pods Manifest.lock */,
 				C5F52CD01E1FCF3900E0F151 /* Sources */,
 				C5F52CD11E1FCF3900E0F151 /* Frameworks */,
 				C5F52CD21E1FCF3900E0F151 /* Resources */,
+				1ED1C055008A969FEF41BC06 /* [CP] Embed Pods Frameworks */,
+				0AE0C051F75C44539F8DBC07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +219,16 @@
 				TargetAttributes = {
 					C5F52CD31E1FCF3900E0F151 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = GUJDAB73PQ;
+						DevelopmentTeam = D3PA4NTWR3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F52CE21E1FCF3900E0F151 /* LaunchScreen.storyboard in Resources */,
+				C51ADD0E1E252033005B5842 /* GoogleService-Info.plist in Resources */,
 				C5F52CDF1E1FCF3900E0F151 /* Assets.xcassets in Resources */,
 				C5F52CDD1E1FCF3900E0F151 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +264,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AE0C051F75C44539F8DBC07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodyMood/Pods-MoodyMood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED1C055008A969FEF41BC06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodyMood/Pods-MoodyMood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3410657964DF96313172635B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5F52CD01E1FCF3900E0F151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F52CDA1E1FCF3900E0F151 /* ViewController.swift in Sources */,
+				C5DEC0121E267A6F001AE294 /* SettingsVC.swift in Sources */,
+				C5F52CED1E1FD35300E0F151 /* HomeVC.swift in Sources */,
+				C5622D2B1E2237490076B740 /* Extensions.swift in Sources */,
+				C5622D281E2237490076B740 /* ChatInputContainerView.swift in Sources */,
+				C5F52CDA1E1FCF3900E0F151 /* LoginVC.swift in Sources */,
+				C5622D341E2239130076B740 /* LoginController.swift in Sources */,
+				C5622D291E2237490076B740 /* ChatLogController.swift in Sources */,
 				C5F52CD81E1FCF3900E0F151 /* AppDelegate.swift in Sources */,
+				C5622D301E2237490076B740 /* User.swift in Sources */,
+				C5622D2D1E2237490076B740 /* Message.swift in Sources */,
+				C5DEC0101E2657CD001AE294 /* HistoryCVC.swift in Sources */,
+				C5622D311E2237490076B740 /* UserCell.swift in Sources */,
+				C5622D2A1E2237490076B740 /* ChatMessageCell.swift in Sources */,
+				C5FCF6FB1E28AFF40083DAFC /* InviteVC.swift in Sources */,
+				C507CF951E1FE1A600F3F914 /* HomeViewController.swift in Sources */,
+				C5FCF6DB1E27B6160083DAFC /* AboutVC.swift in Sources */,
+				C567F9C41E20E5FF0058E7FD /* FriendsCVC.swift in Sources */,
+				C5622D2E1E2237490076B740 /* MessagesController.swift in Sources */,
+				C5622D2F1E2237490076B740 /* NewMessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,10 +379,12 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -231,6 +430,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,26 +457,46 @@
 		};
 		C5F52CE71E1FCF3900E0F151 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF64D8E8E594E14F0C8289E /* Pods-MoodyMood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GUJDAB73PQ;
+				CODE_SIGN_ENTITLEMENTS = MoodyMood/MoodyMood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D3PA4NTWR3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MoodyMood",
+				);
 				INFOPLIST_FILE = MoodyMood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amr.MoodyMood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codendot.MoodyMood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C5F52CE81E1FCF3900E0F151 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A5C290A0BE262F73FF62C9 /* Pods-MoodyMood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GUJDAB73PQ;
+				CODE_SIGN_ENTITLEMENTS = MoodyMood/MoodyMood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D3PA4NTWR3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MoodyMood",
+				);
 				INFOPLIST_FILE = MoodyMood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amr.MoodyMood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codendot.MoodyMood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +520,7 @@
 				C5F52CE81E1FCF3900E0F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_MoodyMood {
+  umbrella header "Pods-MoodyMood-umbrella.h"
+
+  export *
+  module * { export * }
+}
